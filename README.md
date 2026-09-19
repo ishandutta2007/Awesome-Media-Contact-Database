@@ -1,211 +1,107 @@
 # Awesome-Media-Contact-Database
 
-## Top Master Data Governance Platforms Ecosystem
-
+## Top Media Contact Database Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Master Data Management (MDM), Golden Records, Data Quality, Hierarchy Management & Multi-Domain Governance*
-
+*Focused on Journalist Databases, Media Lists, Pitch Targeting, Outlet Coverage & PR Outreach*
 **Last updated: September 2026**
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Media Contact Databases**. These systems provide searchable databases of journalists, editors, producers, and influencers—plus media lists, pitching tools, and coverage tracking—so PR and communications teams can target the right contacts.
 
+**Examples** include Muck Rack, Cision, Roxhill Media, Agility PR Solutions, MediaHQ, Prowly, Press Hunt, ResponseSource, Propel, and Techsalerator (the category leaders).
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Master Data Governance / MDM**. These systems create and maintain trusted “golden” records for customers, products, suppliers, locations, and other domains—enforcing quality, hierarchy, survivorship, and stewardship workflows across the enterprise.
-
-
-
-**Examples** include Profisee, Reltio, Semarchy, Ataccama, Stibo Systems, Informatica MDM, SAP Master Data Governance, IBM InfoSphere MDM, Talend MDM, and EnterWorks (the category leaders).
-
-
-
-**Open-source emphasis**: Full multi-domain enterprise MDM remains largely commercial. Practical open options center on **product information management (PIM)** platforms with MDM-like capabilities (**AtroPIM / AtroCore**, **Pimcore**), lighter master-data tools, and open data-quality frameworks. This section lists the strongest available open resources and is realistic about the gap.
-
-
+**Open-source emphasis**: High-quality, continuously updated media contact databases are almost entirely commercial because the core value is proprietary, curated data. Open options are limited to **self-built lists**, **CRM-style contact managers**, experimental journalist scrapers, and public-source aggregators. This section is realistic about the data gap.
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-
-
 ## Table of Contents
-
 - [SaaS/Hosted Platforms](#saas-products)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
-
-
 ## SaaS/Hosted Platforms
+- **[Muck Rack](https://muckrack.com/)**  
+  Modern PR platform built around a live journalist database, media monitoring, and pitching workflows favored for accuracy and usability.
 
-- **[Profisee](https://profisee.com/)**  
+- **[Cision](https://www.cision.com/)**  
+  Enterprise media database and PR suite with one of the largest contact databases plus PR Newswire distribution and monitoring.
 
-  Enterprise master data management platform known for usability, Microsoft-centric integration, and strong governance workflows; frequently recognized in analyst MDM evaluations.
+- **[Roxhill Media](https://www.roxhillmedia.com/)**  
+  Media database and journalist intelligence platform popular with PR teams for targeted outreach and media research.
 
+- **[Agility PR Solutions](https://www.agilitypr.com/)**  
+  Media database, monitoring, and outreach platform offering journalist targeting and coverage analytics for mid-market and agency teams.
 
+- **[MediaHQ](https://www.mediahq.com/)**  
+  Media contact and distribution platform used for building lists and reaching journalists and outlets.
 
-- **[Reltio](https://www.reltio.com/)**  
+- **[Prowly](https://prowly.com/)**  
+  PR software with media database, pitch management, and press-release tools aimed at accessible outreach for teams and agencies.
 
-  Cloud-native MDM and data-unification platform delivering real-time golden records, AI-assisted matching, and multi-domain master data.
+- **[Press Hunt](https://presshunt.co/)**  
+  Media database and journalist search tool focused on helping startups and PR practitioners find relevant contacts quickly.
 
+- **[ResponseSource](https://www.responsesource.com/)**  
+  Media request and journalist connection platform widely used in the UK and other markets for reactive and proactive PR.
 
+- **[Propel](https://www.propel.online/)**  
+  PR and media database platform supporting contact discovery, lists, and outreach workflows.
 
-- **[Semarchy](https://www.semarchy.com/)**  
-
-  Intelligent data management platform combining MDM, data quality, and data integration for governed golden records and analytics-ready data.
-
-
-
-- **[Ataccama](https://www.ataccama.com/)**  
-
-  Data quality and master data platform with strong profiling, cleansing, and governance capabilities for enterprise data domains.
-
-
-
-- **[Stibo Systems](https://www.stibosystems.com/)**  
-
-  Multidomain MDM and product information management specialist serving complex product, supplier, and customer data scenarios.
-
-
-
-- **[Informatica MDM](https://www.informatica.com/)**  
-
-  Established enterprise MDM suite covering customer, product, and multi-domain master data with extensive connectivity and governance features.
-
-
-
-- **[SAP Master Data Governance (MDG)](https://www.sap.com/)**  
-
-  SAP’s master data governance solution tightly integrated with S/4HANA and the broader SAP ecosystem for material, business partner, and other domains.
-
-
-
-- **[IBM InfoSphere MDM](https://www.ibm.com/)**  
-
-  Enterprise master data management capabilities within the IBM data and AI portfolio for creating trusted golden records at scale.
-
-
-
-- **[Talend MDM (Qlik / Talend ecosystem)](https://www.talend.com/)**  
-
-  Master data and data-quality capabilities historically part of the Talend portfolio, often used alongside integration and governance tools.
-
-
-
-- **[EnterWorks](https://www.enterworks.com/)**  
-
-  Multidomain MDM and PIM platform focused on product, supplier, and customer data for manufacturers, distributors, and retailers.
-
-
+- **[Techsalerator](https://www.techsalerator.com/)**  
+  Data and media-contact oriented solutions sometimes used for building targeted outreach lists and market intelligence.
 
 ## Open-Source GitHub Projects
+- **[MediaWire-style journalist database prototypes](https://github.com/)**  
+  Experimental full-stack projects that scrape bylines, store journalist profiles, score relevance, and support basic outreach workflows.
 
-- **[AtroPIM / AtroCore](https://github.com/atrocore/atropim)**  
+- **[CRM and contact-manager open systems](https://github.com/)**  
+  Open-source CRMs (e.g., Twenty, EspoCRM, ERPNext CRM) used by PR teams to maintain proprietary media lists they build themselves.
 
-  Flexible open-source PIM and data-management platform with configurable data models, strong product-master capabilities, and MDM-oriented features on the AtroCore foundation.
+- **[Web scraping and byline extraction open tools](https://github.com/)**  
+  Scripts and frameworks for collecting publicly available journalist and outlet information (must respect robots.txt, terms, and law).
 
+- **[Public media directory aggregators](https://github.com/)**  
+  Community efforts that compile publicly listed editorial contacts or outlet information into searchable formats.
 
+- **[Media list spreadsheet + Airtable open templates](https://github.com/)**  
+  Shared templates and lightweight open apps for organizing journalist contacts, beats, and outreach status.
 
-- **[Pimcore](https://github.com/pimcore/pimcore)**  
+- **[Email finding and verification open utilities](https://github.com/)**  
+  Tools that assist with discovering or verifying professional email patterns (use ethically and legally).
 
-  Open-source platform combining PIM, DAM, MDM-style master data, and digital experience features—widely used for product and customer data hubs.
+- **[Pitch tracking open kanban / CRM boards](https://github.com/)**  
+  Simple open project boards adapted for managing media outreach pipelines and follow-ups.
 
+- **[Outlet and beat taxonomy open datasets](https://github.com/)**  
+  Community-maintained lists of publications and topic categories that can seed a custom media database.
 
+- **[Newsletter and journalist public profile scrapers](https://github.com/)**  
+  Research-oriented scrapers that collect publicly posted journalist bios and social links for internal research databases.
 
-- **[Broccoli-MDM and lightweight open MDM tools](https://github.com/)**  
-
-  Smaller open-source master data management utilities for loading, editing, and controlling common reference data via a GUI.
-
-
-
-- **[Apache Atlas](https://github.com/apache/atlas)**  
-
-  Open metadata management and governance framework often used for data cataloging, lineage, and governance of analytical and master-like datasets.
-
-
-
-- **[DataHub (LinkedIn / Acryl)](https://github.com/datahub-project/datahub)**  
-
-  Open-source metadata platform for data discovery, observability, and governance that can complement master-data initiatives.
-
-
-
-- **[Open data quality frameworks (Great Expectations, etc.)](https://github.com/great-expectations/great_expectations)**  
-
-  Tools for validating, profiling, and monitoring data quality—essential building blocks of any MDM program.
-
-
-
-- **[Entity resolution and matching open libraries](https://github.com/)**  
-
-  Academic and community libraries for deduplication, record linkage, and survivorship logic used inside custom MDM pipelines.
-
-
-
-- **[Reference data and hierarchy open managers](https://github.com/)**  
-
-  Simple open applications for managing code lists, hierarchies, and reference data domains.
-
-
-
-- **[Talend Open Studio / open integration heritage](https://github.com/)**  
-
-  Historical open integration components sometimes reused in data-quality and consolidation workflows.
-
-
-
-- **[Configurable entity-store open platforms](https://github.com/)**  
-
-  Low-code or metadata-driven open systems that can be configured as lightweight multi-domain master data stores.
-
-
+- **[Self-hosted media monitoring + contact linkage prototypes](https://github.com/)**  
+  Experimental systems that link coverage back to contacts in a self-managed database.
 
 ### Additional Strong Open-Source Options
+- Maintaining **owned media lists** inside an open CRM and enriching them manually or with careful public-source research.
+- Using experimental **journalist database prototypes** only as internal research tools, not as replacements for licensed databases.
+- Combining a commercial media database (for discovery) with an open CRM (for long-term relationship ownership).
+- Accepting that large-scale, accurate, continuously updated journalist databases with beat intelligence and contact verification still require commercial platforms (Muck Rack, Cision, Agility, Prowly, Roxhill, etc.).
+- Focusing open-source efforts on relationship ownership, pitch tracking, and avoiding total dependence on any single vendor’s contact data.
 
-- Using **AtroPIM / AtroCore** or **Pimcore** when product (and related) master data is the primary domain and an open stack is desired.
-
-- Combining **open metadata platforms** (DataHub, Atlas) with data-quality tools for governance visibility.
-
-- Building domain-specific golden-record pipelines with open matching libraries and a governed database—suitable for narrower scopes.
-
-- Accepting that multi-domain enterprise MDM with sophisticated survivorship, stewardship UI, workflow, and scale still favors commercial platforms (Profisee, Reltio, Semarchy, Informatica, SAP MDG, Stibo, IBM, Ataccama, etc.).
-
-- Focusing open-source efforts on product master data, data quality, metadata, and avoiding lock-in for non-core domains.
-
-
-
-**Frameworks for building custom systems**: Define domains and quality rules → match and merge records with open or commercial engines → publish golden records via APIs → steward exceptions in a workflow UI → catalog everything in an open metadata platform. Suitable for organizations with strong data-engineering capacity. Most large enterprises still adopt commercial MDM platforms for multi-domain governance and operational stewardship.
-
-
+**Frameworks for building custom systems**: Discover contacts via commercial databases or public research → store and tag them in an open CRM → track pitches and relationships over time → measure coverage in a monitoring tool. Suitable for teams that want to own long-term media relationships. Most PR agencies and in-house teams still subscribe to commercial media databases for breadth and freshness of contacts.
 
 ## How to Contribute
-
 1. Fork the repo.
-
 2. Add/edit entries in `README.md` (follow existing format).
-
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
 4. Submit PR with a short explanation.
-
-
 
 Star the repo if you find it useful!
 
-
-
 ## Disclaimer
-
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Master data underpins critical business processes and regulatory reporting. Open-source or self-built MDM solutions require careful design of matching rules, auditability, security, and stewardship processes. This list is not architectural or compliance advice.
-
-
+- Media contact data is often personal data and may be subject to GDPR, CCPA, and anti-spam rules. Scraping or bulk-emailing journalists can violate website terms, privacy law, and platform policies. Always obtain and use contact data lawfully and respectfully. This list is not legal advice.
 
 ---
-
-**Made for data governance leaders, MDM architects, and enterprise data teams.**
-
-Let's keep master data trusted, governed, and as open as practical.
+**Made for PR professionals, communications teams, and agencies building media relationships.**
+Let's keep outreach targeted, respectful, and as open as practical where data ownership matters.
