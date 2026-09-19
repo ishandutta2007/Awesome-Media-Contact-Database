@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="300" fill="url(#bg-gradient)" rx="16"/>
+
+  <!-- Dynamic / Animated Background Wave Elements (Positioned behind content) -->
+  <g opacity="0.35">
+    <path d="M -100 150 Q 200 50, 500 180 T 1100 120 T 1300 250 L 1300 350 L -100 350 Z" fill="url(#glow-grad)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -50,10; 0,0" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M -50 220 Q 300 280, 650 150 T 1250 200 L 1250 350 L -50 350 Z" fill="url(#accent-grad)" opacity="0.15">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 40,-12; 0,0" dur="10s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Pulsing Glowing Nodes (Connections in background) -->
+  <g opacity="0.4">
+    <line x1="150" y1="80" x2="280" y2="210" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" values="0;20" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="920" y1="70" x2="1050" y2="200" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" values="20;0" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="150" cy="80" r="4" fill="#a855f7">
+      <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" cy="210" r="5" fill="#6366f1">
+      <animate attributeName="r" values="4;7;4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="920" cy="70" r="6" fill="#ec4899">
+      <animate attributeName="r" values="4;8;4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="200" r="4" fill="#38bdf8">
+      <animate attributeName="r" values="3;6;3" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Decorative Top Border Line -->
+  <rect x="0" y="0" width="1200" height="5" fill="url(#accent-grad)" rx="2"/>
+
+  <!-- Foreground Content Container (High z-index visual guarantee) -->
+  <g transform="translate(600, 150)" text-anchor="middle">
+    <!-- Icon / Badge -->
+    <g transform="translate(0, -65)">
+      <rect x="-80" y="-18" width="160" height="32" rx="16" fill="#1e293b" stroke="#6366f1" stroke-width="1.5"/>
+      <text y="4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#a5b4fc" letter-spacing="1.5">
+        CURATED ECOSYSTEM 📣
+      </text>
+    </g>
+
+    <!-- Main Title -->
+    <text y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="42" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
+      Awesome Media Contact Database
+    </text>
+
+    <!-- Gradient Line Accent under Title -->
+    <rect x="-180" y="32" width="360" height="4" rx="2" fill="url(#accent-grad)" />
+
+    <!-- Subtitle -->
+    <text y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+      Top Media Contact Databases, PR Outreach Platforms &amp; Open-Source Tools
+    </text>
+  </g>
+</svg>

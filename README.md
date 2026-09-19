@@ -1,107 +1,93 @@
-# Awesome-Media-Contact-Database
+# 📣 Awesome Media Contact Database 📰
 
-## Top Media Contact Database Platforms Ecosystem
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on Journalist Databases, Media Lists, Pitch Targeting, Outlet Coverage & PR Outreach*
-**Last updated: September 2026**
+![Awesome Media Contact Database Banner](assets/banner.svg)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Media Contact Databases**. These systems provide searchable databases of journalists, editors, producers, and influencers—plus media lists, pitching tools, and coverage tracking—so PR and communications teams can target the right contacts.
+<p center>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Media-Contact-Database?style=flat-square&color=blue" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Media-Contact-Database?style=flat-square&color=gold" alt="Stars"/>
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Media-Contact-Database?style=flat-square&color=green" alt="License"/>
+</p>
 
-**Examples** include Muck Rack, Cision, Roxhill Media, Agility PR Solutions, MediaHQ, Prowly, Press Hunt, ResponseSource, Propel, and Techsalerator (the category leaders).
-
-**Open-source emphasis**: High-quality, continuously updated media contact databases are almost entirely commercial because the core value is proprietary, curated data. Open options are limited to **self-built lists**, **CRM-style contact managers**, experimental journalist scrapers, and public-source aggregators. This section is realistic about the data gap.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-- **[Muck Rack](https://muckrack.com/)**  
-  Modern PR platform built around a live journalist database, media monitoring, and pitching workflows favored for accuracy and usability.
-
-- **[Cision](https://www.cision.com/)**  
-  Enterprise media database and PR suite with one of the largest contact databases plus PR Newswire distribution and monitoring.
-
-- **[Roxhill Media](https://www.roxhillmedia.com/)**  
-  Media database and journalist intelligence platform popular with PR teams for targeted outreach and media research.
-
-- **[Agility PR Solutions](https://www.agilitypr.com/)**  
-  Media database, monitoring, and outreach platform offering journalist targeting and coverage analytics for mid-market and agency teams.
-
-- **[MediaHQ](https://www.mediahq.com/)**  
-  Media contact and distribution platform used for building lists and reaching journalists and outlets.
-
-- **[Prowly](https://prowly.com/)**  
-  PR software with media database, pitch management, and press-release tools aimed at accessible outreach for teams and agencies.
-
-- **[Press Hunt](https://presshunt.co/)**  
-  Media database and journalist search tool focused on helping startups and PR practitioners find relevant contacts quickly.
-
-- **[ResponseSource](https://www.responsesource.com/)**  
-  Media request and journalist connection platform widely used in the UK and other markets for reactive and proactive PR.
-
-- **[Propel](https://www.propel.online/)**  
-  PR and media database platform supporting contact discovery, lists, and outreach workflows.
-
-- **[Techsalerator](https://www.techsalerator.com/)**  
-  Data and media-contact oriented solutions sometimes used for building targeted outreach lists and market intelligence.
-
-## Open-Source GitHub Projects
-- **[MediaWire-style journalist database prototypes](https://github.com/)**  
-  Experimental full-stack projects that scrape bylines, store journalist profiles, score relevance, and support basic outreach workflows.
-
-- **[CRM and contact-manager open systems](https://github.com/)**  
-  Open-source CRMs (e.g., Twenty, EspoCRM, ERPNext CRM) used by PR teams to maintain proprietary media lists they build themselves.
-
-- **[Web scraping and byline extraction open tools](https://github.com/)**  
-  Scripts and frameworks for collecting publicly available journalist and outlet information (must respect robots.txt, terms, and law).
-
-- **[Public media directory aggregators](https://github.com/)**  
-  Community efforts that compile publicly listed editorial contacts or outlet information into searchable formats.
-
-- **[Media list spreadsheet + Airtable open templates](https://github.com/)**  
-  Shared templates and lightweight open apps for organizing journalist contacts, beats, and outreach status.
-
-- **[Email finding and verification open utilities](https://github.com/)**  
-  Tools that assist with discovering or verifying professional email patterns (use ethically and legally).
-
-- **[Pitch tracking open kanban / CRM boards](https://github.com/)**  
-  Simple open project boards adapted for managing media outreach pipelines and follow-ups.
-
-- **[Outlet and beat taxonomy open datasets](https://github.com/)**  
-  Community-maintained lists of publications and topic categories that can seed a custom media database.
-
-- **[Newsletter and journalist public profile scrapers](https://github.com/)**  
-  Research-oriented scrapers that collect publicly posted journalist bios and social links for internal research databases.
-
-- **[Self-hosted media monitoring + contact linkage prototypes](https://github.com/)**  
-  Experimental systems that link coverage back to contacts in a self-managed database.
-
-### Additional Strong Open-Source Options
-- Maintaining **owned media lists** inside an open CRM and enriching them manually or with careful public-source research.
-- Using experimental **journalist database prototypes** only as internal research tools, not as replacements for licensed databases.
-- Combining a commercial media database (for discovery) with an open CRM (for long-term relationship ownership).
-- Accepting that large-scale, accurate, continuously updated journalist databases with beat intelligence and contact verification still require commercial platforms (Muck Rack, Cision, Agility, Prowly, Roxhill, etc.).
-- Focusing open-source efforts on relationship ownership, pitch tracking, and avoiding total dependence on any single vendor’s contact data.
-
-**Frameworks for building custom systems**: Discover contacts via commercial databases or public research → store and tag them in an open CRM → track pitches and relationships over time → measure coverage in a monitoring tool. Suitable for teams that want to own long-term media relationships. Most PR agencies and in-house teams still subscribe to commercial media databases for breadth and freshness of contacts.
-
-## How to Contribute
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Media contact data is often personal data and may be subject to GDPR, CCPA, and anti-spam rules. Scraping or bulk-emailing journalists can violate website terms, privacy law, and platform policies. Always obtain and use contact data lawfully and respectfully. This list is not legal advice.
+> A curated list of **Media Contact Database Platforms**, **Journalist Directories**, **PR Outreach Software**, and **Open-Source Contact Management Systems** for public relations professionals, communications teams, startups, and media researchers.
 
 ---
-**Made for PR professionals, communications teams, and agencies building media relationships.**
-Let's keep outreach targeted, respectful, and as open as practical where data ownership matters.
+
+## 💡 Industry & Market Overview
+
+The global **PR & Media Intelligence Software Market** is estimated at **$5.2 Billion - $5.8 Billion (2026)** with a compound annual growth rate (CAGR) of **~10.2%**. 
+
+### 📊 Market Structure & Fragmentation
+The market structure is **Moderately Concentrated / Oligopolistic at the Top**:
+* **Enterprise Tier (Winner-Take-Most):** Heavyweights like **Cision** (supported by Platinum Equity acquisitions including PR Newswire and Brandwatch) and **Muck Rack** dominate enterprise PR departments and major global agencies.
+* **Mid-Market & Specialist Tier (Fragmented):** Dozens of specialized SaaS platforms (such as **Prowly**, **Agility PR**, **Roxhill**, and **Propel**) capture niche segments, regional markets (e.g., UK/EU coverage), or startup/SMB budgets.
+* **Open-Source Data Gap:** Premium media contact data requires continuous manual verification and beat monitoring. Open-source solutions focus on self-hosted CRM infrastructure, byline scraping tools, and owned media relationship tracking rather than providing pre-packaged media lists.
+
+---
+
+## 📑 Table of Contents
+- [🏢 SaaS & Commercial Media Database Platforms](#-saas--commercial-media-database-platforms)
+- [🔓 Open-Source GitHub Repositories & Tools](#-open-source-github-repositories--tools)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 🏢 SaaS & Commercial Media Database Platforms
+
+Below is a detailed comparison of top commercial media database platforms, PR distribution suites, and journalist discovery tools.
+
+| 🏢 Platform | 💰 Pricing Tier (Starting) | 🎁 Free Tier / Trial Limit | 📊 Company Size (Valuation / Revenue) | 📝 Overview & Core Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Cision](https://www.cision.com/)** 🏢 | Custom quotes (Est. ~$6,000 - $12,000+/yr) 💵 | No free trial (Sales demo available) 🚫 | **Valuation: ~$2.74 Billion** (Acquired by Platinum Equity) \| Revenue: ~$1 Billion+ 🏆 | Enterprise media database, PR Newswire distribution, and media monitoring suite. |
+| **[Muck Rack](https://muckrack.com/)** 🚀 | Custom quotes (Est. ~$5,000 - $15,000+/yr) 💵 | No self-service trial (Demo / POC available; Free for verified journalists) 🆓 | **Valuation: ~$800M - $1.0 Billion** ($180M Series A) \| ARR: ~$100M+ 📈 | Modern PR platform built around verified journalist profiles, pitching tools, and live monitoring. |
+| **[Agility PR Solutions](https://www.agilitypr.com/)** 🎯 | Custom quotes (Est. ~$3,000 - $7,000+/yr) 💵 | No standard trial (Guided demo only) 🚫 | **Revenue: ~$25.2 Million** (Independent/Private) 💼 | Targeted media database, automated list building, distribution, and coverage measurement. |
+| **[Prowly](https://prowly.com/)** 📱 | Starts at **$258 / month** (Billed annually) 💳 | **7-Day Full Feature Free Trial** ⏱️ | **Acquired by SEMrush** \| Revenue: ~$3M+ ARR 📊 | PR workflow software with media database search, online newsrooms, and press release distribution. |
+| **[Press Hunt](https://presshunt.co/)** 🔍 | Starts at **$999 / month** (Agency Tier) 💳 | No free trial (Data preview & search sample available) 👁️ | **Revenue: ~$1M - $3M** (Bootstrapped/Private startup) 🚀 | Search engine and database containing 750k+ journalists and podcasts for startups & agencies. |
+| **[ResponseSource](https://www.responsesource.com/)** 🇬🇧 | Starts at **~£625 / year** per category 💳 | **7-Day Free Trial** (Journalist Enquiry Service) ⏱️ | **Subsidiary of Vuelio / Access Intelligence** 🏢 | UK-focused media request network connecting journalists directly with PR sources. |
+| **[Roxhill Media](https://www.roxhillmedia.com/)** 🇬🇧 | Custom quotes (Est. ~£6,000+/yr) 💵 | Free trial available upon sales request 📞 | **Revenue: ~$5M - $10M** (Private UK business) 🇬🇧 | UK & international journalist intelligence platform tracking press moves, topic beats, and requests. |
+| **[MediaHQ](https://www.mediahq.com/)** 🇮🇪 | Custom quotes (Est. ~€3,000+/yr) 💶 | Free trial available upon web request 💻 | **Revenue: ~$2M - $5M** (Private EU/Ireland business) 🇪🇺 | Media contact database and release distribution platform specializing in UK & Irish media. |
+| **[Propel](https://www.propel.online/)** 📊 | Custom quotes 💵 | No free trial (Demo available) 🚫 | **Revenue: ~$2M - $5M** (Venture-backed PRtech) 💡 | AI-driven PR management platform with built-in media database and CRM tracking. |
+| **[Techsalerator](https://www.techsalerator.com/)** 🌐 | Custom data quotes 💵 | No free trial (Sample dataset on demo request) 🚫 | **Revenue: ~$1M - $5M** (Global data vendor) 🌐 | B2B and media contact data provider for custom list building and raw data acquisition. |
+
+---
+
+## 🔓 Open-Source GitHub Repositories & Tools
+
+Since pre-packaged journalist lists decay rapidly without dedicated research teams, open-source projects provide the **underlying CRM infrastructure**, **OSINT verification utilities**, and **media analysis engines** to build and maintain owned media relationships.
+
+| 🌟 Repository / Project | ⭐ Stars | 🛠️ Category & Function | 📖 Description |
+| :--- | :--- | :--- | :--- |
+| **[twentyhq/twenty](https://github.com/twentyhq/twenty)** | [<img src="https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white" alt="twenty stars"/>](https://github.com/twentyhq/twenty/stargazers) | Open-Source CRM Infrastructure 🏗️ | Modern CRM (Salesforce alternative) used by PR teams to manage custom journalist lists and outreach pipelines. |
+| **[frappe/erpnext](https://github.com/frappe/erpnext)** | [<img src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="erpnext stars"/>](https://github.com/frappe/erpnext/stargazers) | Enterprise Open CRM & ERP 💼 | Full-featured open-source ERP/CRM ecosystem to track communication history with publications and editors. |
+| **[megadose/holehe](https://github.com/megadose/holehe)** | [<img src="https://img.shields.io/github/stars/megadose/holehe?style=social&color=white" alt="holehe stars"/>](https://github.com/megadose/holehe/stargazers) | OSINT Contact Verification 🔍 | Checks if an email address is registered on 120+ platforms to verify journalist contact details. |
+| **[espocrm/espocrm](https://github.com/espocrm/espocrm)** | [<img src="https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white" alt="espocrm stars"/>](https://github.com/espocrm/espocrm/stargazers) | Self-Hosted Media CRM 🗂️ | Lightweight PHP CRM designed to organize media contacts, target beats, and log press release activity. |
+| **[frappe/crm](https://github.com/frappe/crm)** | [<img src="https://img.shields.io/github/stars/frappe/crm?style=social&color=white" alt="frappe crm stars"/>](https://github.com/frappe/crm/stargazers) | Streamlined Contact Manager 📋 | Open-source, modern CRM interface built on Frappe framework for managing media outreach campaigns. |
+| **[brandonhimpfen/awesome-journalism](https://github.com/brandonhimpfen/awesome-journalism)** | [<img src="https://img.shields.io/github/stars/brandonhimpfen/awesome-journalism?style=social&color=white" alt="awesome-journalism stars"/>](https://github.com/brandonhimpfen/awesome-journalism/stargazers) | Media & Journalism Directory 📚 | Curated collection of journalism resources, OSINT tools, research repositories, and media frameworks. |
+| **[mediacloud/backend](https://github.com/mediacloud/backend)** | [<img src="https://img.shields.io/github/stars/mediacloud/backend?style=social&color=white" alt="mediacloud stars"/>](https://github.com/mediacloud/backend/stargazers) | Media Intelligence Analytics 📰 | Open-source platform that analyzes web media coverage, tracking outlet mentions and editorial beat trends. |
+| **[peterdalle/mediacommtools](https://github.com/peterdalle/mediacommtools)** | [<img src="https://img.shields.io/github/stars/peterdalle/mediacommtools?style=social&color=white" alt="mediacommtools stars"/>](https://github.com/peterdalle/mediacommtools/stargazers) | Media Communication Tools 🛠️ | Open collection of utilities, public data scripts, and newsroom tools tailored for media practitioners. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! To add or update platforms and open-source tools:
+
+1. 🍴 **Fork** this repository.
+2. 📝 Edit `README.md` following the tabular layout and standards.
+3. 📌 Include the product name, pricing structure, free tier limits, company metrics or GitHub repo stars.
+4. 🚀 Submit a **Pull Request** with a brief summary of additions.
+
+---
+
+## ⚠️ Disclaimer
+
+- This database is a **community-curated list** for informational and research purposes.
+- Contact data for journalists is subject to privacy laws including **GDPR**, **CCPA**, and CAN-SPAM regulations. Unsolicited spamming can violate platform terms and consumer protection laws.
+- Always perform outreach responsibly, transparently, and legally.
+
+---
+
+<p align="center">
+  <b>Created with ❤️ for PR Professionals, Media Researchers, Communications Agencies & Open-Source Developers</b>
+</p>
