@@ -3,7 +3,7 @@
 ![Awesome Media Contact Database Banner](assets/banner.svg)
 
 <p center>
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
   <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Media-Contact-Database?style=flat-square&color=blue" alt="Last Commit"/>
   <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Media-Contact-Database?style=flat-square&color=gold" alt="Stars"/>
   <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Media-Contact-Database?style=flat-square&color=green" alt="License"/>
@@ -29,6 +29,8 @@ The market structure is **Moderately Concentrated / Oligopolistic at the Top**:
 - [🏢 SaaS & Commercial Media Database Platforms](#-saas--commercial-media-database-platforms)
 - [🔓 Open-Source GitHub Repositories & Tools](#-open-source-github-repositories--tools)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 - [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
 ---
@@ -77,6 +79,22 @@ Contributions are welcome! To add or update platforms and open-source tools:
 2. 📝 Edit `README.md` following the tabular layout and standards.
 3. 📌 Include the product name, pricing structure, free tier limits, company metrics or GitHub repo stars.
 4. 🚀 Submit a **Pull Request** with a brief summary of additions.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you found this curated database helpful, please consider supporting the project:
+
+- ⭐ **Star** this repository on GitHub to show your appreciation!
+- 🍴 **Fork** and contribute updates or new tools to keep the ecosystem fresh.
+- 📢 **Share** it with fellow PR professionals, journalists, and communications teams.
+- ☕ **Sponsor / Buy me a coffee:** Show your ongoing support via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Media-Contact-Database&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Media-Contact-Database&type=date&legend=top-left)
 
 ---
 
