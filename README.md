@@ -58,7 +58,7 @@ Below is a detailed comparison of top commercial media database platforms, PR di
 
 Since pre-packaged journalist lists decay rapidly without dedicated research teams, open-source projects provide the **underlying CRM infrastructure**, **OSINT verification utilities**, and **media analysis engines** to build and maintain owned media relationships.
 
-| 🌟 Repository / Project | ⭐ Stars | 🛠️ Category & Function | 📖 Description |
+| 🌟 Repository / Project | ⭐ Github_Stars | 🛠️ Category & Function | 📖 Description |
 | :--- | :--- | :--- | :--- |
 | **[twentyhq/twenty](https://github.com/twentyhq/twenty)** | [<img src="https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white" alt="twenty stars"/>](https://github.com/twentyhq/twenty/stargazers) | Open-Source CRM Infrastructure 🏗️ | Modern CRM (Salesforce alternative) used by PR teams to manage custom journalist lists and outreach pipelines. |
 | **[frappe/erpnext](https://github.com/frappe/erpnext)** | [<img src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="erpnext stars"/>](https://github.com/frappe/erpnext/stargazers) | Enterprise Open CRM & ERP 💼 | Full-featured open-source ERP/CRM ecosystem to track communication history with publications and editors. |
